@@ -66,8 +66,8 @@ nav.main-menu li ul.mega-submenu {
     -ms-transition: all 500ms ease;
     background: #fff;
     border-radius: 0;
-    -webkit-box-shadow: 0 0 10px 0 rgba(0, 43, 92, 0.08);
-    box-shadow: 0 0 10px 0 rgba(0, 43, 92, 0.08);
+    -webkit-box-shadow: 0 0 10px 0 #1294D3;
+    box-shadow: 0 0 10px 0 #1294D3;
     background-clip: padding-box;
 }
 nav.main-menu ul.menu > li{
@@ -83,7 +83,7 @@ nav.main-menu ul.menu li ul.mega-submenu li a {
     padding: 15px 20px;
     text-align: left;
     color: #8093a8;
-    border-top: 1px solid rgba(0, 43, 92, 0.04);
+    border-top: 1px solid #1294D3;
     transition: all 500ms ease;
     -moz-transition: all 500ms ease;
     -webkit-transition: all 500ms ease;

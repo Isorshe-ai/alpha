@@ -63,10 +63,15 @@
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 
     display: block;
 }
-a, a:hover, a:focus, a:active {
+a, a:focus, a:active {
     text-decoration: none;
     outline: none;
     color: inherit;
+}
+ a:hover{
+    text-decoration: none;
+    outline: none;
+    color: #F08147;
 }
 a, button, input { 
     outline: none; 
@@ -543,7 +548,7 @@ nav.main-menu ul.menu > li > a:before, .menubar-box .menubar-inner,
 .ttm-team-member-single-content .featured-team-data h5,
 .sidebar .widget.widget-search .search-form .btn[type="submit"],
 #totop.top-visible, .pagination-block .page-numbers:hover, .pagination-block .page-numbers.current{
-    background-color: #004b8d; 
+    background-color: #F08147; 
 }
 
 
@@ -644,7 +649,7 @@ article.ttm-blog-single .ttm-box-post-icon,
 .sidebar .widget.widget-search .search-form .btn[type="submit"]:hover ,
 .ttm-tabs.ttm-tab-style-horizontal ul.tabs li.active a,
 .tooltip:after, [data-tooltip]:after{
-  background-color: #002b5c;
+  background-color: #1294D3;
 }
 
 a.rev-border-button,
@@ -1076,6 +1081,7 @@ ul.social-icons{
     height: 50px;
     line-height: 50px;
     position: relative;
+    background-color: #1294D3;
 }
 .top_bar_icon {
     display: inline-block;
@@ -1636,7 +1642,7 @@ ul.social-icons{
     position: relative;
 }
 .newsletter_form input[type="email"]{
-    background-color: #123a68;
+    background-color: #1294D3;
     border: 0;
     height: 50px;
     line-height: 50px;
@@ -2200,3 +2206,23 @@ section.error-404 .page-content p { font-size: 18px; margin-bottom: 30px; }
 /*  Map
 /*------------------------------------------------------------------------------*/   
 #map { display: block; height: 400px; width: 100%; }
+
+.news {
+    width: 160px
+}
+
+.news-scroll a {
+    text-decoration: none;
+    color: red;
+}
+
+.dot {
+    height: 6px;
+    width: 6px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 2px !important;
+    background-color: rgb(207, 23, 23);
+    border-radius: 50%;
+    display: inline-block
+}
